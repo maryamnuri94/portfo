@@ -10,7 +10,9 @@
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
-    "font-awesome": "^4.7.0"
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "tether": "^1.4.7"
   },
   "devDependencies": {
     "browser-sync": "^2.18.13",
