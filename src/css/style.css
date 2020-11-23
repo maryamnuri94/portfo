@@ -8,9 +8,8 @@
 
 #main-header .port-item {
   width: 30%; }
-
-#main-header .fa {
-  font-size: 2em; }
+  #main-header .port-item .fa {
+    font-size: 2em; }
 
 #main-header .port-item:hover {
   opacity: 0.8;

@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4e52bf6e-d99e-4b23-b4dc-42b3cf91aea4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
@@ -47,7 +45,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605869367163</updated>
       <workItem from="1605869379416" duration="9440000" />
-      <workItem from="1605955989503" duration="10283000" />
+      <workItem from="1605955989503" duration="26821000" />
     </task>
     <servers />
   </component>

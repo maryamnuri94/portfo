@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" >
   <title>my portfolio</title>
 </head>
 <body>
@@ -19,9 +20,9 @@
         </div>
         <div class="col-lg-8 col-md-7 col-sm-12">
           <div class="d-flex flex-column">
-            <div class="p-5 bg-dark text-white">
-              <div class="d-flex flex-row justify-content-between align-items-center">
-                <h1 class="display-4">Maryam Nuri</h1>
+            <div class="p-5   bg-inverse bg-dark text-white">
+              <div class="name d-flex flex-row justify-content-between align-items-center">
+                <h1 class="display-4 py-5">mary nuri</h1>
                 <div><i class="fa fa-twitter"></i></div>
                 <div><i class="fa fa-instagram"></i></div>
                 <div><i class="fa fa-linkedin"></i></div>
@@ -56,7 +57,7 @@
     </header>
     <!-- home -->
      <div  id="home" class="collapse show">
-       <div class="card card-block bg-primary text-white p-5">
+       <div class="card card-block bg-primary text-white py-5">
        <h1>welcome to my page</h1>
          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad et ex labore quae? A asperiores culpa error, magnam neque officia perferendis quaerat vero! Asperiores dolore iure laudantium omnis pariatur quia!</p>
        </div>
@@ -150,8 +151,99 @@
         </div>
       </div>
     <!-- work -->
+  <div id="work" class="collapse">
+    <div class="card card-block bg-warning text-white p-5">
+      <h2>My portfolio</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi </p>
+    </div>
+    <div class="card card-block p-5">
+      <h3>What HAVE I built?</h3>
+      <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, veniam.</P>
+      <div class=" row no-gutters">
+        <div class="col-md-3">
+          <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox">
+          <img src="https://unsplash.it/600/768.jpg?image=251" alt="" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox">
+            <img src="https://unsplash.it/600/768.jpg?image=252" alt="" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox">
+            <img src="https://unsplash.it/600/768.jpg?image=253" alt="" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox">
+            <img src="https://unsplash.it/600/768.jpg?image=254" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
 
+      <div class=" row no-gutters">
+        <div class="col-md-3">
+          <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox">
+            <img src="https://unsplash.it/600/768.jpg?image=255" alt="" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox">
+            <img src="https://unsplash.it/600/768.jpg?image=256" alt="" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="https://unsplash.it/1200/768.jpg?image=257" data-toggle="lightbox">
+            <img src="https://unsplash.it/600/768.jpg?image=257" alt="" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="https://unsplash.it/1200/768.jpg?image=258" data-toggle="lightbox">
+            <img src="https://unsplash.it/600/768.jpg?image=258" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
     <!-- contact -->
+  <div id="contact" class="collapse">
+    <div class="card card-block bg-danger text-white p-5">
+      <h2>contact</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi </p>
+    </div>
+    <div class="card card-block p-5">
+      <h3>Get in Touch</h3>
+      <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, veniam.</P>
+      <form>
+         <div class="form-group">
+           <div class="input-group input-group-lg">
+             <span class="input-group-addon bg-danger text-white">
+               <i class="fa fa-user p-2"></i>
+             </span>
+             <input type="text" class="form-control bg-dark text-white" placeholder="Name" >
+           </div>
+         </div>
+        <div class="form-group">
+          <div class="input-group input-group-lg">
+             <span class="input-group-addon bg-danger text-white">
+               <i class="fa fa-envelope p-2"></i>
+             </span>
+            <input type="email" class="form-control bg-dark text-white" placeholder="Email" >
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="input-group input-group-lg">
+             <span class="input-group-addon bg-danger text-white">
+               <i class="fa fa-pencil p-2"></i>
+             </span>
+            <textarea rows="5" class="form-control bg-dark text-white" placeholder="Message" ></textarea>
+          </div>
+        </div>
+        <input type="submit" class="btn btn-danger btn-block">
+      </form>
+    </div>
+  </div>
 
     <footer id="main-footer" class="p-5 bg-dark text-white">
       <div class="row">
@@ -166,10 +258,16 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/tether.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
   <script>
     $('.port-item').click( function () {
       $('.collapse').collapse('hide');
       
+    });
+
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
     });
 
 
